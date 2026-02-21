@@ -32,31 +32,31 @@ export function Text({ variant = 'body', weight = 'normal', color, style, childr
 const styles = StyleSheet.create({
   h1: {
     fontSize: typography.fontSize['4xl'],
-    lineHeight: 40,
+    lineHeight: 44,
   },
   h2: {
     fontSize: typography.fontSize['3xl'],
-    lineHeight: 32,
+    lineHeight: 36,
   },
   h3: {
     fontSize: typography.fontSize['2xl'],
-    lineHeight: 28,
+    lineHeight: 30,
   },
   lg: {
     fontSize: typography.fontSize.lg,
-    lineHeight: 24,
+    lineHeight: 26,
   },
   body: {
     fontSize: typography.fontSize.base,
-    lineHeight: typography.lineHeight.normal,
+    lineHeight: 24,
   },
   sm: {
     fontSize: typography.fontSize.sm,
-    lineHeight: typography.lineHeight.tight,
+    lineHeight: 20,
   },
   xs: {
     fontSize: typography.fontSize.xs,
-    lineHeight: 14,
+    lineHeight: 18,
   },
   mono: {
     fontSize: typography.fontSize.sm,
